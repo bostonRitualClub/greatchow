@@ -13,19 +13,19 @@
 }
 
 #homeImage1 {
-  background-image: image-url('home_slide_img2.jpg');
+  background-image: image-url('top_img001.jpg');
 }
 #homeImage2{
-  background-image: image-url('home_slide_img1.jpg');
+  background-image: image-url('top_img002.jpg');
 }
 #homeImage3{
-  background-image: image-url('home_slide_img3.jpg');
+  background-image: image-url('top_img007.jpg');
 }
 
 #homeBlurbImage1{
   height:500px;
   width:100%;
-  background-image: image-url('home_content_img3.jpg');
+  background-image: image-url('top_img004.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@
   top: 0;
   margin-left: 12vw;
   margin-top: 20vh;
-  background: image-url('gc-logo-white.png');
+  background: image-url('sushimasa_logo.png');
   opacity: 0.85;
   background-size: contain;
   background-repeat: no-repeat;
@@ -68,14 +68,14 @@
 
   h1{
     color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-family: 'Calligraffitti', sans-serif;
     font-size: calc(2em + 0.4vw);
     text-shadow: 1px 1px 2px black;
   }
 
   h5{
-    color: silver;
+    color: white;
+    text-shadow: .5px .5px .5px black;
     font-family: 'Raleway', sans-serif;
   }
 }
@@ -88,9 +88,9 @@
 }
 
 #homeContentImage1{
-  background-image: image-url('home_content_img1.jpg');
+  background-image: image-url('top_img005.jpg');
 }
 
 #homeContentImage2{
-  background-image: image-url('home_content_img2.jpg');
+  background-image: image-url('top_img006.jpg');
 }

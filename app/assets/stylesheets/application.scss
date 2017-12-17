@@ -26,12 +26,13 @@
 @import 'slick';
 @import 'slick-theme';
 @import 'https://fonts.googleapis.com/css?family=Raleway:200,300,400';
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700');
 
 html, body{
-  background: #1b0b05; /* Old browsers */
-  background: linear-gradient(135deg, #311409
- 34%,#9c401d 82%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: white; /* Old browsers */
+  // background: linear-gradient(135deg, #311409
+ // 34%,#9c401d 82%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 // GLOBAL STYLES
@@ -76,20 +77,20 @@ html, body{
         size: calc(2em + 0.9vw);
         weight: 700;
       }
-      color: white;
+      color: #2d2d2d;
       padding-bottom: 20px;
       text-shadow: 1px 1px 2px black;
     }
 
     h3, h4{
-      color: #e6e6e6;
+      color: #2d2d2d;
       font:{
         family: 'Raleway', sans-serif;
         weight: 300;
       }
 
       span{
-        color: white;
+        color: #2d2d2d;
         font-weight: bold;
         text-shadow: .5px .5px 1px black;
       }
@@ -140,7 +141,7 @@ html, body{
 
   h6{
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: #2d2d2d;
   }
 
   .small-12{
